@@ -30,7 +30,8 @@ var HelloUser = React.createClass({
     return(
       <div>
       Hello {this.state.username} <br />
-      Change Name: <input type="text" value={this.state.username} onChange={this.handleChange} />
+      Change name: <input type="text" value={this.state.username}
+      onChange={this.handleChange} />
       </div>
     )
   }
